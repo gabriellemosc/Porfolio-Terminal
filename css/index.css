@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: rgba(24, 48, 51, 0.66);
+    background-image: url(../web/wallpapersden.com_anime-city-4k-top-view_4096x2272.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96.5svh;
+    margin: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari, Edge */
+}
+
+main{
+    color: rgb(255, 255, 255); /* Cor do texto */
+    width: 100%;
+    height: 103%;
+    border-radius: 1rem;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.highlight{
+    color: rgb(0, 255, 255); /* Cor do texto */
+    font-weight: 700;
+    vertical-align: middle; /* Alinha verticalmente ao meio */
+    display: inline-block;
+   
+
+}
+
+.type{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;  /* Impede que quebrem a linha */
+    width: 100%; /* Garante que a div ocupe toda a largura disponível */
+    
+
+
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit !important;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: #000000 !important;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.type input{
+    background-color: transparent;
+    width: auto; /* Impede que o input ocupe toda a largura */
+    border: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700; /* Negrito */
+    margin-left: 0.3rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    caret-color: #00ffdd;
+    caret-shape: block;
+    flex-shrink: 0; /* Impede que o input encolha */
+    margin-bottom: 10px;
+   
+}
+
+.type input:focus{
+    outline: none;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-color: rgba(24, 48, 51, 0.66);
+    padding: 2rem;
+    border-radius: 1em;
+    margin-top: 1rem;
+    height: 100%;
+    width: 95.7svw;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #706f6f transparent;
+    margin: 0 auto;
+    
+}
+
+#app p{
+    line-height: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1.0em;
+    text-align: justify;
+    text-align-last: left;
+
+}
+
+#app .pre_line{
+    color: #6da0e2;
+    
+}
+
+#app .dots{
+    color: #4ef3ff;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        font-size: 0.6rem;
+    }
+    .type input{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    body{
+        font-size: 0.5rem;
+    }
+    .type input{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: 0.4rem;
+    }
+    .type input{
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        font-size: 0.27rem;
+    }
+    .type input{
+        font-size: 0.27rem;
+    }
+}
+
+.sc-hmdomO.ipIkuu {
+    color: rgb(0, 255, 98); /* Cor do texto */
+    font-weight: 700; /* Negrito */
+    padding: 0.1rem; /* Espaçamento interno */
+    border-radius: 0.50rem; /* Bordas arredondadas */
+    display: inline;
+}
+
+
+
+.visitor {
+    color: rgb(96, 253, 255); /* Cor do texto */
+    font-weight: 700; /* Negrito */
+    padding: 0.1rem; /* Espaçamento interno */
+    border-radius: 0.50rem; /* Bordas arredondadas */
+    display: inline;
+}
+
+
+
+/* Classe para os comandos */
+.highlight-command {
+    font-weight: 700;
+    color: #11f5e2;
+    display: inline-block;
+    width: 120px; /* Largura fixa para alinhar os comandos */
+    padding-right: 10px; /* Espaço entre o comando e a descrição */
+}
+
+/* Classe para as descrições */
+.command-description {
+    color: rgb(240, 240, 240, 0.85);
+    font-size: 16px;
+    display: inline-block;
+    width: auto; /* A descrição vai se ajustar automaticamente ao texto */
+    padding-left: 1rem; /* Adiciona uma pequena margem à esquerda */
+    font-weight: 700;
+}
+
+.welcome{
+    color: #ffffff;
+    font-weight: 700;
+};
+
+
+.ascii-container {
+    flex-shrink: 0; /* Impede que a arte seja reduzida */
+    margin-left: auto; /* Empurra a arte ASCII para a direita */
+    text-align: right;
+  }
+  
+  .ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    color: #00ff00; /* Cor verde estilo terminal */
+    text-align: right;
+    min-width: 250px; /* Mantém um tamanho mínimo */
+    max-width: 400px; /* Garante que não fique muito grande */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+  }
+
+
+  .terminal-launch {
+    color: rgb(24, 221, 73);
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+
+
+
+  .lista_filme {
+    text-decoration: none;
+    color: #00ffc8;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.lista_filme {
+    text-decoration: none;
+    color: #00ffc8 !important;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.lista_filme:hover {
+    background-color: #00ffc8;
+    color: black;
+}
+
+
+
+.link_filmes{
+    font-weight: 700;
+    color: #00ffea !important;
+    display: inline-block;
+    width: 120px; /* Largura fixa para alinhar os comandos */
+    padding-right: 10px; /* Espaço entre o comando e a descrição */
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+.redes{
+    font-weight: 700;
+    color: #11f5e2 !important;
+    display: inline-block;
+    width: 120px; /* Largura fixa para alinhar os comandos */
+    padding-right: 10px; /* Espaço entre o comando e a descrição */
+    text-decoration: none;
+
+}
+
+.links_redes {
+    text-decoration: none !important;
+    color: #00ffc8;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.links_redes:hover {
+    background-color: #00ffc8 !important;
+    color: rgb(0, 0, 0) !important; /* Garante que a cor seja preta ao passar o mouse */
+    font-weight: bold;
+    text-decoration: none !important;
+
+
+}
+
+
+
+
+
+.projeto_nome{
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1) !important; /* Garante que a cor seja preta ao passar o mouse */
+    display: inline-block;
+    width: 180px; /* Largura fixa para alinhar os comandos */
+    padding-right: 100px; /* Espaço entre o comando e a descrição */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.projeto_link{
+    text-decoration: none !important;
+    color: #00ffc8;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+
+.projeto_link:hover {
+    background-color: #00ffc8 !important;
+    color: rgb(0, 0, 0) !important; /* Garante que a cor seja preta ao passar o mouse */
+    font-weight: bold;
+    text-decoration: none !important;
+
+
+}
