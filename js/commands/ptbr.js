@@ -38,9 +38,11 @@ const social = `
 const projetos = `
     <p>
         <span class="projeto_nome">E-commerce</span> <span class="projeto_link"><a href="https://github.com/gabriellemosc/Ecommerce_Project" target="_blank">GabrielLemos/Ecommerce</a></span> <br>
-        <span class="projeto_nome">Netflix Clone</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Netflix_Copy" target="_blank">GabrielLemos/Netflix_Clone</a></span><br>
-        <span class="projeto_nome">App Vendas</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/App-de-Vendas-" target="_blank">GabrielLemos/App_Vendas-web</a></span><br>
-        <span class="projeto_nome">Portfolio Terminal</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/App-de-Vendas-" target="_blank">GabrielLemos/App_Vendas-web</a></span><br>
+        <span class="projeto_nome">Netflix Clone</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Netflix_Copy" target="_blank">GabrielLemos/Netflix-Clone</a></span><br>
+        <span class="projeto_nome">App Vendas</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/App-de-Vendas-" target="_blank">GabrielLemos/App-Vendas</a></span><br>
+        <span class="projeto_nome">Portfolio Terminal</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Porfolio-Terminal" target="_blank">GabrielLemos/Portfolio-Terminal</a></span><br>
+        <span class="projeto_nome">Flappy Bird</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Flappy-Bird" target="_blank">GabrielLemos/Flappy-Bird-Game</a></span><br>
+
 
     </p>
 `
