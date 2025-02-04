@@ -169,7 +169,7 @@ function create_terminal_input_line(language) {
   p.setAttribute("class", "pre_line");
 
   if (language == "ptbr") {
-    p.innerHTML = '<span class="visitor">visitante</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span>:';
+    p.innerHTML = '<span class="visitor">visitante</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span>';
   } else {
     p.innerHTML = '<span class="visitor">visitante</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span>';
   }

@@ -3,7 +3,6 @@ const ajuda = `
      <span class="highlight-command">help</span><span class="command-description">  - Exibe uma lista de comandos disponíveis</span><br>
     <span class="highlight-command">whois</span><span class="command-description">- Sobre mim</span><br>
     <span class="highlight-command">whoami</span><span class="command-description"> - Sobre você</span><br>
-    <span class="highlight-command">ping</span><span class="command-description"> - (•-•)⌐</span><br>
     <span class="highlight-command">playlist</span><span class="command-description"> - Um pouco além de apenas um 'whois'</span><br>
     <span class="highlight-command">social</span><span class="command-description"> - Redes sociais</span><br>
     <span class="highlight-command">projetos</span><span class="command-description"> - Principais projetos</span><br>
@@ -48,19 +47,22 @@ const projetos = `
 `
 const habilidades = `
     <p>
-        +---- <<<span class="highlight">Habilidades</span>>> ----+<br>
-        |- <<span class="highlight">Typescript</span>> ----------|<br>
-        |- <<span class="highlight">Python</span>> --------------|<br>
-        |- <<span class="highlight">NodeJs</span>> --------------|<br>
-        |- <<span class="highlight">Java</span>> ----------------|<br>
-        |- <<span class="highlight">Ruby</span>> ----------------|<br>
-        |- <<span class="highlight">Go</span>> ------------------|<br>
-        +-------------------------+ <br>
+         <span class="habilidades_tecnicas">Habilidades Técnicas...</span> <br><br>
+         <span class="habilidades">Linux</span><br>
+        <span class="habilidades">Python</span> <br>
+        <span class="habilidades">C e C++</span> <br>
+        <span class="habilidades">Git</span> <br>
+        <span class="habilidades">SQL</span><br>
+        <span class="habilidades">Docker</span><br>
+        <span class="habilidades">AWS</span><br>
+        <span class="habilidades">Bash</span><br>
+
+ 
     </p>
 `
-const carreira = "Atualmente estou em busca de uma oportunidade de estágio na área de desenvolvimento Fullstack e Backend. Recentemente atuei como Help Desk, Analista de Suporte e SysAdmin na Prática Certificação Digital, durante todo meu tempo como colaborador adquiri uma grande experiência na área de suporte e gerenciamento de sistemas."
+const carreira = "Atualmente estou em busca de uma oportunidade de me profissionalizar na área de desenvolvimento Fullstack e Backend. Recentemente atuei como Help Desk, Analista de Suporte e SysAdmin na Prática Certificação Digital, durante todo meu tempo como colaborador adquiri uma grande experiência na área de suporte e gerenciamento de sistemas."
 
-const estudo = 'Estou cursando Análise e Desenvolvimento de Sistemas na <span class="highlight">PUCRS</span> e realizando projetos como freelancer <span class="highlight">Fullstack</span> paralelamente.'
+const estudo = 'Estou cursando Análise e Desenvolvimento de Sistemas na <span class="facul"><a href="https://www.fsa.br/">FSA</a></span> e realizando projetos como freelancer <span class="highlight">Backend</span> paralelamente.Como integrações com endpoints de APIs, deploy em servidores EC2 da AWS, operações CRUD em Banco de Dados e desenvolvimento lógico de pequenos sites'
 
 export const comm_ptbr = {
     "help": ajuda,

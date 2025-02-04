@@ -333,3 +333,44 @@ a:hover{
 
 
 }
+
+
+.habilidades_tecnicas {
+    margin-bottom: 1px; /* Reduzi um pouco o espaçamento para melhor proporção */
+    padding-bottom: 1px; /* Pequeno ajuste para equilíbrio */
+    color: #e6d5d5;   
+    font-weight: bold;
+    font-size: 19px; /* Tamanho maior para destaque */
+    text-align: center; /* Centralizar o título */
+    letter-spacing: 1px; /* Melhorar a leitura */
+}
+
+.habilidades {
+    margin-top: 10px; /* Afastar da seção acima */
+    padding-left: 80px; /* Espaço interno */
+    font-size: 18px;
+    color: #fffffff8;
+  }
+
+
+
+
+.facul{
+    text-decoration: none !important;
+    color: #00ffc8;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+
+.facul:hover {
+    background-color: #00ffc8 !important;
+    color: rgb(0, 0, 0) !important; /* Garante que a cor seja preta ao passar o mouse */
+    font-weight: bold;
+    text-decoration: none !important;
+
+
+}
