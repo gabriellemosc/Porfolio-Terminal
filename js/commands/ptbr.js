@@ -31,6 +31,8 @@ const social = `
     <p> Você pode me encontrar nas redes:<br>
         <span  class="redes">GitHub</span> <span class="links_redes"><a href="https://github.com/gabriellemosc  target="_blank">Github/GabrielLemos</a></span><br>
 	<span  class="redes">Instagram</span> <span class="links_redes"><a href="https://www.instagram.com/gabriel_lemosc77/" target="_blank">Instagram/GabrielLemos</a><br></span>
+    <span  class="redes">E-mail</span> <span class="links_redes"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre..."  target="_blank">E-mail de contato</a></span><br>
+
     </p>
 `
 
@@ -60,9 +62,13 @@ const habilidades = `
  
     </p>
 `
-const carreira = "Atualmente estou em busca de uma oportunidade de me profissionalizar na área de desenvolvimento Fullstack e Backend. Recentemente atuei como Help Desk, Analista de Suporte e SysAdmin na Prática Certificação Digital, durante todo meu tempo como colaborador adquiri uma grande experiência na área de suporte e gerenciamento de sistemas."
+const carreira = `<span class="carreira"><p>No momento, em busca da minha profissionalização como desenvolvedor de software. Sou um profissional apaixonado por tecnologia, aprendizado contínuo e resolução de problemas. </p>
 
-const estudo = 'Estou cursando Análise e Desenvolvimento de Sistemas na <span class="facul"><a href="https://www.fsa.br/">FSA</a></span> e realizando projetos como freelancer <span class="highlight">Backend</span> paralelamente.Como integrações com endpoints de APIs, deploy em servidores EC2 da AWS, operações CRUD em Banco de Dados e desenvolvimento lógico de pequenos sites'
+<p>Além de experiências práticas, venho me aprimorando regularmente quanto aos conhecimentos em desenvolvimento de software. Tenho estudado diversas áreas, funcionamento, linguagens e tanto quanto frameworks e ferramentas modernas. No atual momento, realizo projetos como freelancer, trabalhando com integração de APIs, implantação de aplicações em servidores AWS EC2, manipulação de bancos de dados com operações CRUD e desenvolvimento lógico de pequenos websites.</p>
+
+<p>Estou buscando me profissionalizar como desenvolvedor,contribuir para projetos e crescer profissionalmente. Se você ficou interessado e gostou do que viu, adoraria ter uma oportunidade para conversarmos!</p></span>  <span class="send_email"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre...">Envie um e-mail</a></span>`
+
+const estudo = '<span class="estudo"><p>Estou cursando Análise e Desenvolvimento de Sistemas na <span class="facul"><a href="https://www.fsa.br/">FSA</a></span> e realizando projetos como freelancer <span class="highlight">Backend</span> paralelamente. Como integrações com endpoints de APIs, deploy em servidores EC2 da AWS, operações CRUD em Banco de Dados e desenvolvimento lógico de pequenos sites</p> <p> Atualmente, estou focado em me profissionalizar como desenvolvedor de software. Com grande paixão por tecnologia, aprendizado constante e desafios em resoluções de problemas.</p><p> Busco me profissionalizar na área de desenvolvimento, colaborar em projetos e evoluir constantemente. Ficaria muito feliz em ter a chance de conversar sobre novas oportunidades</p></span> <span class="send_email"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre...">Envie um e-mail</a></span>'
 
 export const comm_ptbr = {
     "help": ajuda,

@@ -374,3 +374,54 @@ a:hover{
 
 
 }
+
+
+
+.carreira{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17.5px;
+}
+
+.carreira:hover {
+    background-color: #00ffc8 !important;
+    color: rgb(65, 145, 78) !important; /* Garante que a cor seja preta ao passar o mouse */
+    font-weight: 700;
+    text-decoration: none !important;
+
+
+}
+
+
+.estudo{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17.5px;
+
+}
+
+.estudo:hover{
+    background-color: #00ffc8 !important;
+    color: rgb(65, 145, 78) !important; /* Garante que a cor seja preta ao passar o mouse */
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+
+.send_email {
+    display: inline-block; /* Garante que o link fique em bloco, facilitando o controle */
+    text-decoration: none !important;
+    color: #ffffff; /* Cor do texto dentro da caixinha */
+    font-weight: bold;
+    padding: 0px 17px; /* Aumenta o tamanho da caixinha */
+    background-color: #5eb9c5; /* Cor de fundo da caixinha */
+    border-radius: 25px; /* Borda arredondada */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transições suaves */
+    font-size: 15px;
+}
+
+.send_email:hover {
+    background-color: #00ffc8; /* Cor de fundo ao passar o mouse */
+    color: rgb(0, 0, 0); /* Cor do texto ao passar o mouse */
+    transform: scale(1.10); /* Aumenta o tamanho da caixinha quando o mouse passa sobre */
+}
