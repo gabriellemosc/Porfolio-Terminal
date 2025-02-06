@@ -9,7 +9,7 @@ import {
 app.addEventListener("keypress", async function (e) {
     if (e.key === 'Enter') {
         await delay(200);
-        get_input_command();
+        get_input_command();    
     }
 })
 

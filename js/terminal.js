@@ -281,7 +281,7 @@ export async function get_input_command() {
       return;
     }
     if (value == "exit") {
-      window.location.href = "https://devlucasborges.com";      /* TODO: COLOCAR MEU PORTFOLIO    */
+      window.location.href = "https://github.com/gabriellemosc";      /* TODO: COLOCAR MEU PORTFOLIO    */
       return;
     }
     await add_text(error(get_lang()), "error");
