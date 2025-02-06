@@ -302,7 +302,7 @@ async function load_first_screen(lang) {
       p.className = "pre_line"; // Classe opcional para estilização
 
       // Definir o conteúdo do 'p'
-      p.innerHTML = '<span class="visitor">visitante</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span><span class="app dots">:~$</span> <span class="welcome">welcome</span>';
+      p.innerHTML = '<span class="visitor">visitante</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span><span class="app dots">:~$</span> <span class="welcome">Bem_Vindo</span>';
       
       // Adicionar 'p' ao DOM
       document.getElementById("app").appendChild(p);
@@ -311,10 +311,10 @@ async function load_first_screen(lang) {
 
 
       await add_art(ascii_cubes, "ascii");
-      await add_text("Start Terminal... ");
-      await add_text("---------------")
+      await add_text("Launching terminal...","terminal-launch");
+      await add_text("---------------------------------")
       await delay(500);
-      await add_text("Bem Vindo Ao Meu Portfolio Terminal");
+      await add_text("Seja Bem Vindo Ao Meu Portfolio Terminal");
       await delay(100);
       await add_text(
         'Digite "<span class="highlight">lang"</span> para mudar o idioma | <span class="highlight">pt-BR</span> / <span class="highlight">en-US</span> <br><br>Digite "<span class="highlight">help</span>" para ver a lista de comandos'
@@ -327,7 +327,7 @@ async function load_first_screen(lang) {
 
       // Definir o conteúdo do 'p' (versão em inglês)
       p_en.innerHTML =
-        '<span class="visitor">guest</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span><span class="app dots">:~$</span> <span class="welcome">welcome</span>';
+        '<span class="visitor">guest</span><span class="highlight">@</span><span class="sc-hmdomO ipIkuu">gabriellemos.com</span><span class="app dots">:~$</span> <span class="welcome">Welcome</span>';
 
       // Adicionar 'p' ao DOM
       document.getElementById("app").appendChild(p_en); 
@@ -338,7 +338,7 @@ async function load_first_screen(lang) {
       add_art(ascii_cubes, "ascii");
       await delay(400);
       await add_text("Launching terminal...","terminal-launch");
-      await add_text("---------------")
+      await add_text("---------------------------------")
       await delay(300);
       await add_text("Welcome to my Terminal Portfolio...")
       await delay(100);
