@@ -1,11 +1,8 @@
 const help = `
 <p style="line-height: 2.0;">
      <span class="highlight-command">help</span><span class="command-description">  - Exibe uma lista de comandos disponíveis</span><br>
-    <span class="highlight-command">whois</span><span class="command-description">- About Me</span><br>
-    <span class="highlight-command">whoami</span><span class="command-description"> - About You</span><br>
-    <span class="highlight-command">ping</span><span class="command-description"> - (•-•)⌐</span><br>
-    <span class="highlight-command">banner</span><span class="command-description"> - Load banner</span><br>
-    <span class="highlight-command">playlist</span><span class="command-description"> - A little beyond just a 'whois</span><br>
+    <span class="highlight-command">whoami</span><span class="command-description">- About Me</span><br>
+    <span class="highlight-command">playlist</span><span class="command-description"> - A little beyond just a 'whoami</span><br>
     <span class="highlight-command">social</span><span class="command-description"> - Social Networks</span><br>
     <span class="highlight-command">projetos</span><span class="command-description"> - Main Projects</span><br>
     <span class="highlight-command">habilidades</span><span class="command-description">  - Main Skills</span><br>
@@ -18,57 +15,71 @@ const help = `
 
 
 
-const whois = 'My name is Lucas Borges, or just "Lusqinha" for the internet, I was captured by the huge <em>Rabbit Hole</em> that is <span class="highlight">GNU/Linux</span> and the free software culture, where I ended up becoming interested in programming and cybersecurity.<br><br>Leaving the internet aside for a moment, I have a growing passion for cars and especially for my dear <span class="highlight">Civic 2005</span>, of which I am the proud owner (I will leave some photos here in the future), I have been developing an OBD2-based onboard computer btw; another of my fixations is music, to be more specific the band <span class="highlight">Charlie Brown Jr.</span> occupies a good part of my playlists and headphones during the day, finding a group where all songs are great is rare, but within all the albums, I would like to recommend just one song so that I can introduce you better to the classics of the band, I ask you to listen <span class="highlight"><a href="https://www.youtube.com/watch?v=DRhEueqE7Uw&pp=ygUQY2hhcmxpZSBicm93biBqcg%3D%3D" target="_blank">Lugar ao sol</a></span>, I promise that your attention will not be in vain.'
+const whoami = 'My name is Gabriel Lemos, I first got hooked on programming when I experienced <span class="highlight">Linux</span> for the first time, more specifically Arch Linux, where you practically customize your OS from scratch. Since then, I became more involved and attached to the world of software development and the free software culture. <br> Leaving the internet aside for a moment, I have a growing passion for cars and books, in which I have a huge bookshelf at home, and I am incredibly proud of it and intend to expand it even more; Another of my fixations is movies, more specifically, classic movies by great directors such as Coppola, Scorsese, Stanley Kubrick, and Nolan. <br> With the command <span class="highlight">playlist,</span> I share with you a list of movies I’ve picked for those who feel curious...';
 
 
-const whoami = "You are a visitor, for more complex answers I recommend a psychologist, not a developer."
 
 const playlist = `
 <p>
-    The playlist is on Spotify, but I recommend using another player such as <span class="highlight"><a href="https://spotube.krtirtho.dev/" target="_blank"></a>Spotube</span>.<br>
+    The playlist is on<a href="https://www.imdb.com/" class="lista_filme" target="_blank">IMDB</a>,if you want to view it, you can click the link below. <br>
 
-    <span class="highlight">Link</span> ----------------- <a href="https://open.spotify.com/playlist/3tSiLpa5XAPTN3BiGxt7E1 target="_blank">My Mix</a><br>
-</p>`
+    <span class="link_filmes">Link</span> <a href="https://www.imdb.com/list/ls597452338/?ref_=up_urls_ttl_1" target="_blank" class="lista_filme">Movie Playlist</a><br>
+</p>
+`
+
 
 const social = `
     <p> You can find me on: <br>
-        <span class="highlight"> GitHub</span> --------------  <a href="https://github.com/Lusqinha" target="_blank">github.com/Lusqinha</a><br>
-    	<span class="highlight"> Twitter/X</span> -----------  <a href="https://x.com/kernelape" target="_blank">KernelApe</a><br>
+        <span class="redes">GitHub</span> <span class="links_redes"><a href="https://github.com/gabriellemosc" target="_blank">Github/GabrielLemos</a></span><br>
+	<span class="redes">Instagram</span> <span class="links_redes"><a href="https://www.instagram.com/gabriel_lemosc77/" target="_blank">Instagram/GabrielLemos</a><br></span>
+    <span class="redes">E-mail</span> <span class="links_redes"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre..." target="_blank">Contact for Email</a></span><br>
     </p>
 `
+
 
 const projects = `
     <p>
-        <<span class="highlight">RandAvatars</span>> -------------------------- <a href="https://github.com/Lusqinha/RandAvatars-telegram-bot" target="_blank">Lusqinha/RandAvatars</a><br>
-        <<span class="highlight">Portfolio Terminal</span>> ------------------- <a href="https://github.com/Lusqinha/portfolio_terminal" target="_blank">Lusqinha/portfolio_terminal</a><br>
-        <<span class="highlight">PecManager</span>> --------------------------- <a href="https://github.com/Lusqinha/PecManager-web" target="_blank">Lusqinha/PecManager-web</a><br>
-        <<span class="highlight">Service schedule</span>> --------------------- Private//open source soon<br>
+        <span class="projeto_nome">E-commerce</span> <span class="projeto_link"><a href="https://github.com/gabriellemosc/Ecommerce_Project" target="_blank">GabrielLemos/Ecommerce</a></span> <br>
+        <span class="projeto_nome">Netflix Clone</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Netflix_Copy" target="_blank">GabrielLemos/Netflix-Clone</a></span><br>
+        <span class="projeto_nome">Sales App</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/App-de-Vendas-" target="_blank">GabrielLemos/App-Vendas</a></span><br>
+        <span class="projeto_nome">Terminal Portfolio</span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Porfolio-Terminal" target="_blank">GabrielLemos/Portfolio-Terminal</a></span><br>
+        <span class="projeto_nome">Flappy Bird Game </span>  <span class="projeto_link"><a href="https://github.com/gabriellemosc/Flappy-Bird" target="_blank">GabrielLemos/Flappy-Bird-Game</a></span><br>
     </p>
 `
+
+
 
 const skills = `
     <p>
-        +---- <<<span class="highlight">Habilidades</span>>> ----+<br>
-        |- <<span class="highlight">Typescript</span>> ----------|<br>
-        |- <<span class="highlight">Python</span>> --------------|<br>
-        |- <<span class="highlight">NodeJs</span>> --------------|<br>
-        |- <<span class="highlight">Java</span>> ----------------|<br>
-        |- <<span class="highlight">Ruby</span>> ----------------|<br>
-        |- <<span class="highlight">Go</span>> ------------------|<br>
-        +-------------------------+ <br>
+         <span class="habilidades_tecnicas">Technical Skills...</span> <br><br>
+         <span class="habilidades">Linux</span><br>
+        <span class="habilidades">Python</span> <br>
+        <span class="habilidades">C and C++</span> <br>
+        <span class="habilidades">Git</span> <br>
+        <span class="habilidades">SQL</span><br>
+        <span class="habilidades">Docker</span><br>
+        <span class="habilidades">AWS</span><br>
+        <span class="habilidades">Bash</span><br>
+
+ 
     </p>
 `
 
-const career = "I am currently looking for an internship opportunity in the Fullstack and Backend development area. Recently I worked as a Help Desk, Support Analyst and SysAdmin at Prática Certificação Digital, during all my time as a collaborator I acquired a great experience in the area of support and systems management."
 
-const education = 'I am studying Systems Analysis and Development at <span class="highlight">PUCRS</span> while i on projects as a freelancer <span class="highlight">Fullstack</span>.'
+const career = `<span class="carreira"><p>Currently, I am seeking professional development as a software developer. I am a professional passionate about technology, continuous learning, and problem-solving.</p>
+
+<p>In addition to practical experiences, I have been regularly improving my knowledge in software development. I have been studying various areas, how things work, programming languages, as well as modern frameworks and tools. At the moment, I am working on projects as a freelancer, focusing on API integration, deploying applications on AWS EC2 servers, handling databases with CRUD operations, and developing logic for small websites.</p>
+
+<p>I am aiming to become a professional developer, contribute to projects, and grow professionally. If you're interested and like what you've seen, I would love the opportunity to have a conversation!</p></span> <span class="send_email"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Opportunity&body=Hello, Gabriel! I would like to talk about...">Send an email</a></span>`
+
+
+const education = '<span class="estudo"><p>I am studying Systems Analysis and Development at <span class="facul"><a href="https://www.fsa.br/">FSA</a></span> and working on projects as a freelancer <span class="highlight">Backend</span> in parallel. These projects include API integrations, deploying on AWS EC2 servers, performing CRUD operations on Databases, and logical development of small websites.</p><p>Currently, I am focused on becoming a professional software developer. I have a great passion for technology, continuous learning, and problem-solving challenges.</p><p>I am aiming to professionalize in the development area, collaborate on projects, and constantly evolve. I would be very happy to have the chance to talk about new opportunities.</p></span> <span class="send_email"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Opportunity&body=Hello, Gabriel! I would like to talk about...">Send an email</a></span>';
+
 
 
 export const comm_en = {
     "help": help,
-    "whois": whois,
     "whoami": whoami,
-    "ping": "• ¬(•-•) PONG!",
     "playlist": playlist,
     "social": social,
     "projects": projects,

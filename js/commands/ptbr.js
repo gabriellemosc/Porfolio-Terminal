@@ -14,9 +14,8 @@ const ajuda = `
 </p>
 `
 
-const whois = 'Meu nome é Gabriel Lemos, comecei a me prender no mundo de programacão, a partir quando experiencie <span class="highlight">Linux</span> pela primeira vez, mais específico o Arch Linux, onde você praticamente, customiza seu SO à partir do zero. Desde então, fui me envolvendo e me afeiçoando mais pelo mundo de desenvolvimento de software e a cultura de software livre. <br>Deixando um pouco a internet de lado, tenho uma paixão crescente por carros e livros, na qual em específico, tenho uma grande prateleira na minha casa inclusive, que tenho o enorme orgulho e pretendo expandir muito mais; Outra de minhas fixações são filmes, sendo mais específico, filmes clássicos de grandes diretores, como Coppola, Scorsese, Stanley Kubrick e Nolan. <br> Com o comando <span class="highlight">playlist,</span> compartilho com você uma lista de filmes que separei para aqueles que se sentirem curiosos...'
+const whoami = 'Meu nome é Gabriel Lemos, comecei a me prender no mundo de programacão, a partir quando experiencie <span class="highlight">Linux</span> pela primeira vez, mais específico o Arch Linux, onde você praticamente, customiza seu SO à partir do zero. Desde então, fui me envolvendo e me afeiçoando mais pelo mundo de desenvolvimento de software e a cultura de software livre. <br>Deixando um pouco a internet de lado, tenho uma paixão crescente por carros e livros, na qual em específico, tenho uma grande prateleira na minha casa inclusive, que tenho o enorme orgulho e pretendo expandir muito mais; Outra de minhas fixações são filmes, sendo mais específico, filmes clássicos de grandes diretores, como Coppola, Scorsese, Stanley Kubrick e Nolan. <br> Com o comando <span class="highlight">playlist,</span> compartilho com você uma lista de filmes que separei para aqueles que se sentirem curiosos...'
 
-const whoami = "Você é um visitante, para respostas mais complexas recomendo um psicólogo, não um desenvolvedor."
 
 const playlist = `
 <p>
@@ -27,14 +26,14 @@ const playlist = `
 </p>
 `
 
-const social = `
-    <p> Você pode me encontrar nas redes:<br>
-        <span  class="redes">GitHub</span> <span class="links_redes"><a href="https://github.com/gabriellemosc  target="_blank">Github/GabrielLemos</a></span><br>
-	<span  class="redes">Instagram</span> <span class="links_redes"><a href="https://www.instagram.com/gabriel_lemosc77/" target="_blank">Instagram/GabrielLemos</a><br></span>
-    <span  class="redes">E-mail</span> <span class="links_redes"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre..."  target="_blank">E-mail de contato</a></span><br>
+    const social = `
+        <p> Você pode me encontrar nas redes:<br>
+            <span  class="redes">GitHub</span> <span class="links_redes"><a href="https://github.com/gabriellemosc  target="_blank">Github/GabrielLemos</a></span><br>
+        <span  class="redes">Instagram</span> <span class="links_redes"><a href="https://www.instagram.com/gabriel_lemosc77/" target="_blank">Instagram/GabrielLemos</a><br></span>
+        <span  class="redes">E-mail</span> <span class="links_redes"><a href="mailto:gabriel.lemos1910@gmail.com?subject=Oportunidade&body=Olá, Gabriel! Gostaria de falar sobre..."  target="_blank">E-mail de contato</a></span><br>
 
-    </p>
-`
+        </p>
+    `
 
 const projetos = `
     <p>
@@ -72,7 +71,6 @@ const estudo = '<span class="estudo"><p>Estou cursando Análise e Desenvolviment
 
 export const comm_ptbr = {
     "help": ajuda,
-    "whois": whois,
     "whoami": whoami,
     "ping": "• ¬(•-•) PONG!",
     "playlist": playlist,
