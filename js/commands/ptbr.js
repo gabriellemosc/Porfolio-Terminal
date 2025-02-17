@@ -1,8 +1,7 @@
 const ajuda = `
 <p style="line-height: 2.0;">
      <span class="highlight-command">help</span><span class="command-description">  - Exibe uma lista de comandos disponíveis</span><br>
-    <span class="highlight-command">whois</span><span class="command-description">- Sobre mim</span><br>
-    <span class="highlight-command">whoami</span><span class="command-description"> - Sobre você</span><br>
+    <span class="highlight-command">whoami</span><span class="command-description"> - Sobre mim</span><br>
     <span class="highlight-command">playlist</span><span class="command-description"> - Um pouco além de apenas um "whois"</span><br>
     <span class="highlight-command">social</span><span class="command-description"> - Redes sociais</span><br>
     <span class="highlight-command">projetos</span><span class="command-description"> - Principais projetos</span><br>
