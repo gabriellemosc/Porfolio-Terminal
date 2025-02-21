@@ -1,6 +1,6 @@
 const help = `
 <p style="line-height: 2.0;">
-     <span class="highlight-command">help</span><span class="command-description">  - Exibe uma lista de comandos disponíveis</span><br>
+     <span class="highlight-command">help</span><span class="command-description">  - Displays a list of available commands</span><br>
     <span class="highlight-command">whoami</span><span class="command-description">- About Me</span><br>
     <span class="highlight-command">playlist</span><span class="command-description"> - A little beyond just a "whoami"</span><br>
     <span class="highlight-command">social</span><span class="command-description"> - Social Networks</span><br>
