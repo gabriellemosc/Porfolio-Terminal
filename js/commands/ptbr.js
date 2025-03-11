@@ -8,7 +8,7 @@ const ajuda = `
     <span class="highlight-command">habilidades</span><span class="command-description">  - Principais habilidades</span><br>
     <span class="highlight-command">carreira</span><span class="command-description">     - Experiência profissional</span><br>
     <span class="highlight-command">estudo</span><span class="command-description">       - Formação acadêmica</span><br>
-    <span class="highlight-command">clear</span><span class="command-description">        - Limpa o terminal</span>
+    <span class="highlight-command">clear</span><span class="command-description">        - Limpa o terminal</span><br>
     <span class="highlight-command">exit</span><span class="command-description">        - Sair do terminal</span>
 
     <br>

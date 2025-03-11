@@ -8,8 +8,8 @@ const help = `
     <span class="highlight-command">skills</span><span class="command-description">  - Main Skills</span><br>
     <span class="highlight-command">career</span><span class="command-description">     - Provessional Experience</span><br>
     <span class="highlight-command">education</span><span class="command-description">       - Academic Background</span><br>
-    <span class="highlight-command">clear</span><span class="command-description">        - Clear the Terminal</span>
-    <span class="highlight-command">exit</span><span class="command-description">        - Exit the Terminal the Terminal</span>
+    <span class="highlight-command">clear</span><span class="command-description">        - Clear the Terminal</span><br>
+    <span class="highlight-command">exit</span><span class="command-description">        - Exit the Terminal</span>
 
     <br>
 </p>
